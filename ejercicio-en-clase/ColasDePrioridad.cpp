@@ -31,7 +31,7 @@ void ColaPrioridad::enqueue(Elemento e){ // añade
     int flag = 1;
     vector<int>::iterator it = vec.begin();
     for(it; it != vec.end() && flag == 1;it++){
-      if(e <= vec[*it]){
+      if(e <= *it){
         vec.insert(it, e);
         flag = 0;
       }
