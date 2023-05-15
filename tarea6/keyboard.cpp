@@ -1,3 +1,8 @@
+/*
+la comeplejidad de este programa es 
+O(n) ya que solo se recorre una vez la variable
+donde esta contenida la oraciòn
+*/
 #include <iostream>
 #include <list>
 #include <string>
