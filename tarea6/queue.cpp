@@ -1,3 +1,14 @@
+/*
+La complejidad de este programa es O(nlog n) 
+porque la función principal del programa tiene 
+un ciclo while que se ejecuta n veces, donde 
+n es el número de casos de prueba. Dentro de 
+este ciclo, hay otro ciclo que se ejecuta log n 
+veces en el peor de los casos, ya que se realizan 
+operaciones de inserción y eliminación en un 
+conjunto ordenado de elementos. Por lo tanto, 
+la complejidad total del programa es O(nlog n).
+*/
 #include <iostream>
 #include <string>
 #include <list>
@@ -30,13 +41,6 @@ int main() {
                 mapa.insert(pair<int,int>(i,0));
             }
         }
-        /*
-        for (int z = 0; z < 6; ++z)
-        {
-        	printf("%d",numeros.front());
-        	numeros.pop_front();
-        }
-        */
         cin.ignore();
         for(int cont = 0; cont < y; cont++){
 	        getline(cin, siguiente);
