@@ -1,3 +1,7 @@
+/*
+la complejidad es O(n*logn)
+
+*/
 #include <iostream>
 #include <map>
 #include <list>
